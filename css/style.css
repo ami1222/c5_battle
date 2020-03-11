@@ -1,0 +1,106 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+
+/* この下から記述 */
+#wrapper {
+  width: 1000px;
+  height: 750px;
+  border: solid 2px black;
+  margin: auto;
+  background-color: white;
+}
+
+h1#title {
+  color: tomato;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#setumei {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#monster {
+  display: inline-block;
+  margin: 0 250px;
+}
+
+#monster img {
+  height: 500px;
+}
+
+label {
+  margin-right: 30px;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+#select_box {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#select_box button {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  color: #FFF;
+  background: tomato;
+  transition: .4s;
+  margin-top: 30px;
+}
+
+#select_box button:hover {
+  background: tomato;
+}
+
+/* battle.php */
+h1#result_title {
+  color: tomato;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px;
+}
+
+#attack_result1 {
+  color: black;
+  font-size: 20px;
+  padding-left: 200px;
+}
+
+#attack_result2 {
+  color: black;
+  font-size: 20px;
+  padding-left: 200px;
+}
+
+#attack_result2 img {
+  height: 500px;
+  margin: 30px;
+  padding-right: 200px;
+  
+}
+
+a#red {
+  color: tomato;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 200px;
+}
